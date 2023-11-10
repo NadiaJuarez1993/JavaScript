@@ -2,17 +2,20 @@
 
 ## Ejercicios
 
-Todo ejercicio que incluya emojis puede ser sustituido con strings
+Todo ejercicio que incluya emojis puede ser sustituido con strings*/
 
-### `obtenerMenor(numeros)`
+/*# `obtenerMenor(numeros)`
 
 Crear una función `obtenerMenor` que tome como argumento un array de números `numeros` y devuelva el menor de ellos. Ejemplo:
 
-```javascript
-obtenerNumeroMenor(5, 7, 99, 34, 54, 2, 12) // 2
-```
+obtenerNumeroMenor(5, 7, 99, 34, 54, 2, 12) // 2*/
 
-### `sumar(numeros)`
+const obtenerMenor = [5, 7, 99, 34, 54, 2, 12]
+
+
+
+
+/* ### `sumar(numeros)`
 
 Crear una función `sumar` que tome como argumento un array de números `numeros` y devuelva la suma de ellos. Ejemplo:
 

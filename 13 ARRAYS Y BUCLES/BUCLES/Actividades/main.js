@@ -1,27 +1,33 @@
 /*# 🔄 Estructuras de control: bucles
 
-## Funciones
+## Funciones*/
 
-### `obtenerIndice(valor, array)`
+/*### `obtenerIndice(valor, array)`
 
 Crear una función `obtenerIndice` que tome como argumento un valor cualquiera `valor` y un array cualquiera `array` y devuelva el índice del _primer ítem_ con dicho valor en el array, o -1 si no hay ninguno.
 
 ```javascript
 obtenerIndice(12, [5, 7, 12, 34, 54, 2, 12]) // 2
-obtenerIndice(83, [5, 7, 12, 34, 54, 2, 12]) // -1
-```
+obtenerIndice(83, [5, 7, 12, 34, 54, 2, 12]) // -1*/
 
-### `repetir(valor, cantidad)`
 
-Crear una función `repetir` que tome como argumento un valor `valor` y un número entero `cantidad`, y devuelva una array con `valor` repetido `cantidad` de veces.
 
-```javascript
-repetir('lovelace', 3) // ['lovelace', 'lovelace', 'lovelace']
-repetir('a', 5) // ['a', 'a', 'a', 'a', 'a']
-repetir('html', 0) // []
-```
+/*### `repetir(valor, cantidad)`
 
-### `sumarImparesHasta(numero)`
+Crear una función `repetir` que tome como argumento un valor `valor` y un número entero `cantidad`, y devuelva una array con `valor` repetido `cantidad` de veces.*/
+
+const repetir = (valor , cantidad ) => {
+  const value = valor
+  console.log(value.repeat(cantidad))
+}
+
+
+repetir('lovelace ', 3) // ['lovelace', 'lovelace', 'lovelace']
+repetir('a ', 5) // ['a', 'a', 'a', 'a', 'a']
+repetir('html ', 0) // []
+
+
+/*### `sumarImparesHasta(numero)`
 
 Crear una función `sumarImparesHasta` que tome como argumento un número `numero` y que devuelva la suma de todos los impares empezando desde 0 hasta dicho `numero` inclusive.
 
