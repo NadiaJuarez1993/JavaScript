@@ -114,10 +114,10 @@ callback => funcion pasada por parametro a otra funcion
 
 // $(".welcome").addEventListener("click", welcome)
 
-// $(".welcome").addEventListener("click", () => {
-//     // bloque de codigo que se va a ejecutar cuando el usuario de click en mi boton
-//     alert("Me ejecute por tu click!!")
-// })
+ $(".welcome").addEventListener("click", () => {
+  // bloque de codigo que se va a ejecutar cuando el usuario de click en mi boton
+    alert("Me ejecute por tu click!!")
+ })
 
 // $(".welcome").addEventListener("click", () => {
 //     welcome("Pilar")
