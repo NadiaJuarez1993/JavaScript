@@ -1,6 +1,6 @@
 /*# Callbacks
 
-## map
+/*## map
 
 * Crear una función `map` que acepte un array y un callback y que: 
     - por cada elemento del array ejecute el callback pasándole dicho elemento como argumento 
@@ -13,10 +13,28 @@ Ejemplo:
 ```javascript
 const numeros = [1, 2, 3]
 const duplicar = x => x * 2
-map(numeros, duplicar) // [2, 4, 6]
-```
+map(numeros, duplicar) // [2, 4, 6]*/
 
-## filter
+
+// const numeros = [1, 2, 3]
+
+// const duplicar = (x) => x * 2
+// const triplicar = (x) => x * 3
+
+// const map = (array, callback) => {
+//     const nuevoArray = []
+//     for (const elemento of array) {
+//         const elementoModificado = callback(elemento)
+//         nuevoArray.push(elementoModificado)
+//     }
+//     return nuevoArray
+// }
+
+// console.log(map(numeros, duplicar))
+// console.log(map(numeros, triplicar))
+
+
+/* ## filter
 
 * Crear una función `filter` que acepte un array y un callback y que: 
     - por cada elemento del array ejecute el callback pasándole dicho elemento como argumento 
@@ -28,11 +46,11 @@ Ejemplo:
 ```javascript
 const numeros = [10, 2, 3, 40, 33, 50]
 const multiploDe10 = x => x % 10 === 0
-filter(numeros, multiploDe10) // [10, 40, 50]
-```
+filter(numeros, multiploDe10) // [10, 40, 50]*/
 
 
-## every
+
+/*## every
 
 * Crear una función `every` que acepte un array y un callback y que: 
     - por cada elemento del array ejecute el callback pasándole dicho elemento como argumento 
