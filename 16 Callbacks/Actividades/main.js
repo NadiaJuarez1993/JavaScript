@@ -17,17 +17,16 @@ map(numeros, duplicar) // [2, 4, 6]*/
 
 
 // const numeros = [1, 2, 3]
-
 // const duplicar = (x) => x * 2
 // const triplicar = (x) => x * 3
 
 // const map = (array, callback) => {
 //     const nuevoArray = []
-//     for (const elemento of array) {
+//      for (const elemento of array) {
 //         const elementoModificado = callback(elemento)
-//         nuevoArray.push(elementoModificado)
-//     }
-//     return nuevoArray
+//          nuevoArray.push(elementoModificado)
+//  }
+//      return nuevoArray
 // }
 
 // console.log(map(numeros, duplicar))
@@ -47,6 +46,28 @@ Ejemplo:
 const numeros = [10, 2, 3, 40, 33, 50]
 const multiploDe10 = x => x % 10 === 0
 filter(numeros, multiploDe10) // [10, 40, 50]*/
+
+const numeros = [10, 2, -3, 40, -33, 50]
+const esPositivo = (x) => x > 0
+const multiploDe10 = (x) => x % 10 === 0
+
+const filter = (array, callback) => {
+     // declaro mi array inicial
+     const nuevoArray = []
+     // itero por el array que recibo por argumento
+     for (const elemento of array) {
+         // ejecuto el callback pasandole el elemento que estoy iterando
+         if (callback(elemento)) {
+             // si se cumple mi condicion, pusheo ese elemento al array inicial
+             nuevoArray.push(elemento)
+         }
+     }
+     // retorno el array filtrado
+     return nuevoArray
+}
+
+// console.log(filter(numeros, esPositivo))
+// console.log(filter(numeros, multiploDe10))
 
 
 
